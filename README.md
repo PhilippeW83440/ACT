@@ -8,7 +8,9 @@
      <br>Anti-Collision Tests
 </p>
   
-The source of uncertainty that is currently modelled is related to sensor's uncertainty. But the main source of uncertainty is related to other agents intents and driving models. Depending on:  
+The source of uncertainty that is currently modelled is related to sensor's uncertainty. But the main source of uncertainty is related to other agents intents and driving models.  
+  
+Depending on:  
 * an agent intent  
 * an agent driving or behavioral model  
 * and contextual information (relative positions, speeds, geometry of the scene, rules and signalling)     
