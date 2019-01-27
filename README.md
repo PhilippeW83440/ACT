@@ -25,6 +25,7 @@ Possible improvements, Next steps:
      - With simple DNN Neural Networks (taking into accout some history) or with RNN-LSTM Neural Networks specifically trained for IDM parameters inference  
      - With Variational Autoencoders: they enable to encode hidden variables. So they could be used in a more generic way (beyond some specific IDM or MOBIL models) to encode different  driving or behavioral models
      - With Bayesian Networks   
+* Or us a RL model-free approach to make decisions ... Study how to ensure safety in this context.  
 * Contextual information: unchanged so far, just the sensors fusion output (position+speed per object)  
 
 => Benchmark performances (safety metric with % of collisions, efficiency metric with time to goal, comfort metric with number of hard braking decisions) with no specific model, DNN model, RNN-LSTM model and Variational Autoencoders model used for non-ego behavioral models inference.  
