@@ -18,7 +18,7 @@ Depending on:
 An agent in the scene will modify its acceleration. Predicting or anticipating how the surrounding agents could potentially modify their acceleration in the short-term future (up to a few seconds) is of paramount importance for safe driving.  
 
 
-Possible improvements, Next steps (Project Proposal for CS234):  
+Possible improvements, Next steps:  
 1) **Other agents' Behavioral Model Inference:**
 * So far other agents in the scene evolve with constant velocity. Add support for IDM (depending on 5 parameters) to model different longitudinal acceleration models for the different agents.  Assume in a first step that intent is known: other cars are driving within a lane but driving according to an unknown (unknwon parameters) IDM model.
 * Infer other agents driving model. Possible ways of doing this are:  
